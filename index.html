@@ -25,6 +25,10 @@
     <form onsubmit="addNewTask(event)" >
         <input type="text" name="taskText" autocomplete="off" placeholder="New Task" class="roundBorder">
         <button type="submit" class="addTaskButton">+</button>
+        <button type="button" class="orderButton roundBorder" onclick="renderOrderedTask()"> Order </button>
+    </form>
+    <div id="tasksContainer"></div>
+
 </div>
 
     
