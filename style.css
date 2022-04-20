@@ -1,0 +1,20 @@
+:root {
+    --primary: #a5c882;
+    --secondary: #d33f49;
+    --light: #fff;
+    --dark: #000;
+    --diabled: #e7e7e7;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-color: var(--diabled);
+}
+* :first-letter {
+    text-transform: capitalize;
+}
+.roundBorder {
+    border-radius: 5px;
+}
