@@ -6,14 +6,13 @@ const dateYear = document.getElementById('dateYear')
 
 // Tasks container 
 
-const tasksContainer = document/getElementById('tasksContainer')
+const tasksContainer = document.getElementById('tasksContainer');
 
 const setDate = () => {
     const date = new Date();
-    dateNumber.textContent = date.toLocaleDateString('es', { day: 'numeric' });
-    dateText.textContent = date.toLocaleDateString('es', { weekday: 'long' });
-    dateMonth.textContent = date.toLocaleDateString ('es', { month: 'short' });
-    dateYear.textContent = date.toLocaleDateString ('es', { dateYear: 'numeric' });
+    dateNumber.textContent = date.toLocaleString('en', { day: 'numeric' });
+    dateText.textContent = date.toLocaleString('en', { weekday: 'long' });
+    dateMonth.textContent = date.toLocaleString('en', { month: 'short' });
+    dateYear.textContent = date.toLocaleString('en', { year: 'numeric' });
 };
 
-setDate();
