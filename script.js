@@ -9,10 +9,10 @@ const tasksContainer = document.getElementById('tasksContainer');
 
 const setDate = () => {
     const date = new Date();
-    dateNumber.textContent = date.toLocaleString('en', { day: 'numeric' });
-    dateText.textContent = date.toLocaleString('en', { weekday: 'long' });
-    dateMonth.textContent = date.toLocaleString('en', { month: 'short' });
-    dateYear.textContent = date.toLocaleString('en', { year: 'numeric' });
+    dateNumber.textContent = date.toLocaleString('es', { day: 'numeric' });
+    dateText.textContent = date.toLocaleString('es', { weekday: 'long' });
+    dateMonth.textContent = date.toLocaleString('es', { month: 'short' });
+    dateYear.textContent = date.toLocaleString('es', { year: 'numeric' });
 };
 
 const addNewTask = event => {
